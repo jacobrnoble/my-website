@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f7f9fc;
+  background-color: #2E2E2E; /* Charcoal background */
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,8 +10,8 @@ body {
 }
 
 header, footer {
-  background-color: #343a40;
-  color: #f8f9fa;
+  background-color: #2E2E2E; /* Charcoal background */
+  color: #4CAF50; /* Forest Green text */
   text-align: center;
   padding: 1rem 0;
 }
@@ -27,7 +27,7 @@ main {
 /* Projects Section */
 .project-icon {
   display: inline-block;
-  border: 2px solid #343a40;
+  border: 2px solid #4CAF50; /* Forest Green border */
   border-radius: 10px;
   overflow: hidden;
 }
@@ -39,25 +39,25 @@ main {
   object-fit: cover;
 }
 
-/* Chat Styles */
+/* Comments Styles */
 .chat-container {
   position: fixed;
   right: 2%;
   top: 10%;
   bottom: 10%;
   width: 250px;
-  background-color: #f8f9fa;
+  background-color: #4CAF50; /* Forest Green background */
   border-radius: 10px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
 }
 
 .chat-container header {
-  background-color: #343a40;
-  color: #f8f9fa;
+  background-color: #2E2E2E; /* Charcoal background */
+  color: #f8f9fa; /* White text */
   padding: 1rem;
   font-weight: bold;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 9px; /* Fix the border issue */
+  border-top-right-radius: 9px; /* Fix the border issue */
   text-align: center;
 }
 
@@ -83,8 +83,8 @@ main {
 }
 
 .message.sent p {
-  background-color: #343a40;
-  color: #f8f9fa;
+  background-color: #2E2E2E; /* Charcoal background */
+  color: #f8f9fa; /* White text */
   float: right;
   clear: both;
 }
@@ -105,8 +105,8 @@ main {
 }
 
 .chat-input button {
-  background-color: #343a40;
-  color: #f8f9fa;
+  background-color: #2E2E2E; /* Charcoal background */
+  color: #f8f9fa; /* White text */
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 10px;
@@ -114,5 +114,5 @@ main {
 }
 
 .chat-input button:hover {
-  background-color: #2d3236;
+  background-color: #1a1a1a; /* Darker Charcoal on hover */
 }
