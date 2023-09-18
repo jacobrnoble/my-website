@@ -52,6 +52,8 @@ main {
   border: 2px solid #4CAF50; /* Forest Green border for chat box */
   border-radius: 10px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* added to adjust the positioning of elements within the chat container */
 }
 
 .chat-container header {
@@ -65,7 +67,7 @@ main {
 }
 
 .chat-messages {
-  max-height: calc(100% - 120px);
+  flex: 1; /* added to ensure it takes the available space */
   overflow-y: scroll;
   padding: 1rem;
 }
@@ -114,7 +116,7 @@ main {
   background-color: #2E2E2E; /* Charcoal background */
   color: #f8f9fa; /* White text */
   padding: 0.5rem 1rem;
-  border: none;
+  border: 1px solid #f8f9fa; /* White border for the button */
   border-radius: 10px;
   cursor: pointer;
 }
