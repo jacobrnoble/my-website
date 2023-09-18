@@ -11,11 +11,11 @@ body {
 
 header, footer {
   background-color: #2E2E2E; /* Charcoal background */
-  color: #4CAF50; /* Forest Green text */
+  color: #F2D785; /* Forest Green text */
   text-align: center;
   padding: 1rem 0;
-  border-top: 1px solid #4CAF50; /* Forest Green border for header */
-  border-bottom: 1px solid #4CAF50; /* Forest Green border for footer */
+  border-top: 1px solid #F2D785; /* Forest Green border for header */
+  border-bottom: 1px solid #F2D785; /* Forest Green border for footer */
 }
 
 main {
@@ -29,7 +29,7 @@ main {
 /* Projects Section */
 .project-icon {
   display: inline-block;
-  border: 2px solid #4CAF50; /* Forest Green border */
+  border: 2px solid #F2D785; /* Forest Green border */
   border-radius: 10px;
   overflow: hidden;
 }
@@ -57,7 +57,7 @@ main {
 }
 
 .chat-container header {
-  background-color: #4CAF50; /* Charcoal background */
+  background-color: #F2D785; /* Charcoal background */
   color: #f8f9fa; /* White text */
   padding: 1rem;
   font-weight: bold;
@@ -82,7 +82,7 @@ main {
   border-radius: 10px;
   line-height: 1.4;
   display: inline-block;
-  border: 1px solid #4CAF50; /* Forest Green border for messages */
+  border: 1px solid #F2D785; /* Forest Green border for messages */
 }
 
 .message.received p {
@@ -101,7 +101,7 @@ main {
   border-top: 1px solid #e9ecef;
   display: flex;
   align-items: center;
-  background-color: #4CAF50; /* Charcoal background for input area */
+  background-color: #F2D785; /* Charcoal background for input area */
 }
 
 .chat-input input {
