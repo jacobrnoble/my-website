@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Interactive Resume</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Timeline</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-  <div class="container">
+
     <header>
-      <h1 contenteditable="true">Your Name</h1>
-      <p contenteditable="true">Your Position</p>
+        <h1>Jacob R Noble's Portfolio</h1>
     </header>
-    <section class="contact">
-      <h2>Contact Information</h2>
-      <p contenteditable="true">Email: example@email.com</p>
-      <p contenteditable="true">Phone: +1 123 456 7890</p>
+
+    <section id="timeline">
+        <a href="project1/" class="project-icon">
+            <img src="assets/icon1.png" alt="Project 1">
+            <span>Project 1</span>
+        </a>
+        <!-- Future projects will be appended here -->
     </section>
-    <section class="education">
-      <h2>Education</h2>
-      <p contenteditable="true">B.Eng in Aerospace Engineering, Carleton University</p>
-    </section>
-    <section class="experience">
-      <h2>Experience</h2>
-      <p contenteditable="true">Your work experience here.</p>
-    </section>
-    <section class="skills">
-      <h2>Skills</h2>
-      <p contenteditable="true">Your skills here.</p>
-    </section>
-    <div id="additional-sections"></div>
-    <button id="add-section" class="action-button">Add Section</button>
-  </div>
+
+    <script src="main.js"></script>
+
 </body>
+
 </html>
