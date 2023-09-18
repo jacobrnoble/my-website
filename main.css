@@ -1,59 +1,50 @@
-/* Reset some default styles */
-body, h1, p, a {
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  text-decoration: none;
 }
 
-/* Give the entire page a basic layout */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-header, footer {
+header {
   background-color: #333;
   color: #fff;
-  padding: 1rem;
   text-align: center;
+  padding: 1rem 0;
 }
 
-main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.main {
   padding: 2rem;
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+/* Projects Section */
+.project-icon {
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .project-icon img {
-  max-width: 100px;
-  max-height: 100px; /* Added this line */
-  margin-bottom: 0.5rem;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-icon span {
   display: block;
-  object-fit: contain; /* Ensures the image keeps its aspect ratio */
-}
-
-
-.project-icon img {
-  max-width: 100px;
-  margin-bottom: 0.5rem;
-}
-
-.project-icon:hover {
-  background-color: #f5f5f5;
-}
-
-footer p {
+  text-align: center;
   margin-top: 0.5rem;
 }
 
