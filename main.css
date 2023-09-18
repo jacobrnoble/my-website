@@ -85,7 +85,8 @@ main {
 }
 
 .message.received p {
-  background-color: #252625;
+  background-color: #F2F2F2;
+  border: 1px solid #252625;
 }
 
 .message.sent p {
