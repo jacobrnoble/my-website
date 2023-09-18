@@ -32,7 +32,7 @@ main {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; /* Space between project icons */
+  gap: 1rem;
 }
 
 .project-icon {
@@ -46,7 +46,7 @@ main {
 }
 
 .project-icon img {
-  max-width: 100px; /* Or any other size that suits your design */
+  max-width: 100px;
   margin-bottom: 0.5rem;
 }
 
