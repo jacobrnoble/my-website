@@ -115,18 +115,3 @@ main {
   color: #f8f9fa; /* White text for input */
   box-sizing: border-box;
 }
-
-.chat-input button {
-  background-color: #2E2E2E; /* Charcoal background */
-  color: #f8f9fa; /* White text */
-  padding: 0.5rem 0.9rem; /* Slightly decreased padding */
-  border: 1px solid #f8f9fa; /* White border for the button */
-  border-radius: 10px;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-.chat-input button:hover {
-  background-color: #1a1a1a; /* Darker Charcoal on hover */
-}
-
