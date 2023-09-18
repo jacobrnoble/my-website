@@ -103,7 +103,6 @@ main {
   display: flex;
   align-items: center;
   background-color: #2E2E2E; /* Charcoal background for input area */
-  margin: 0; /* Removing any default margins */
 }
 
 .chat-input input {
@@ -111,7 +110,6 @@ main {
   padding: 0.5rem;
   border: none;
   border-radius: 10px;
-  margin-right: 0.3rem; /* Slightly decreased margin */
   color: #f8f9fa; /* White text for input */
   box-sizing: border-box;
 }
