@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #2E2E2E; /* Charcoal background */
+  background-color: #252625; /* Charcoal background */
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 header, footer {
-  background-color: #2E2E2E; /* Charcoal background */
+  background-color: #252625; /* Charcoal background */
   color: #F2D785; /* Forest Green text */
   text-align: center;
   padding: 1rem 0;
@@ -48,7 +48,7 @@ main {
   top: 10%;
   bottom: 10%;
   width: 250px;
-  background-color: #e9ecef; /* Light background for chat box */
+  background-color: #F2F2F2; /* Light background for chat box */
   border-radius: 10px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -58,7 +58,7 @@ main {
 
 .chat-container header {
   background-color: #F2D785; /* Charcoal background */
-  color: #f8f9fa; /* White text */
+  color: #252625; /* White text */
   padding: 1rem;
   font-weight: bold;
   border-top-left-radius: 8px; /* Slightly decreased to fit within the chat container */
@@ -82,24 +82,24 @@ main {
   border-radius: 10px;
   line-height: 1.4;
   display: inline-block;
-  border: 1px solid #F2D785; /* Forest Green border for messages */
 }
 
 .message.received p {
-  background-color: #e9ecef;
+  background-color: #252625;
 }
 
 .message.sent p {
   background-color: #2E2E2E; /* Charcoal background */
-  color: #f8f9fa; /* White text */
+  color: #F2F2F2; /* White text */
   float: right;
   clear: both;
 }
 
 .chat-input {
   padding: 1rem;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #F2F2F2;
   display: flex;
+  border-radius: 10px;
   align-items: center;
   background-color: #F2D785; /* Charcoal background for input area */
 }
