@@ -14,6 +14,8 @@ header, footer {
   color: #4CAF50; /* Forest Green text */
   text-align: center;
   padding: 1rem 0;
+  border-top: 1px solid #4CAF50; /* Forest Green border for header */
+  border-bottom: 1px solid #4CAF50; /* Forest Green border for footer */
 }
 
 main {
@@ -46,7 +48,8 @@ main {
   top: 10%;
   bottom: 10%;
   width: 250px;
-  background-color: #4CAF50; /* Forest Green background */
+  background-color: #e9ecef; /* Light background for chat box */
+  border: 2px solid #4CAF50; /* Forest Green border for chat box */
   border-radius: 10px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
 }
@@ -56,8 +59,8 @@ main {
   color: #f8f9fa; /* White text */
   padding: 1rem;
   font-weight: bold;
-  border-top-left-radius: 9px; /* Fix the border issue */
-  border-top-right-radius: 9px; /* Fix the border issue */
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
   text-align: center;
 }
 
@@ -76,6 +79,7 @@ main {
   border-radius: 10px;
   line-height: 1.4;
   display: inline-block;
+  border: 1px solid #4CAF50; /* Forest Green border for messages */
 }
 
 .message.received p {
@@ -94,6 +98,7 @@ main {
   border-top: 1px solid #e9ecef;
   display: flex;
   align-items: center;
+  background-color: #2E2E2E; /* Charcoal background for input area */
 }
 
 .chat-input input {
@@ -102,6 +107,7 @@ main {
   border: none;
   border-radius: 10px;
   margin-right: 0.5rem;
+  color: #f8f9fa; /* White text for input */
 }
 
 .chat-input button {
