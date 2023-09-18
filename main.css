@@ -49,7 +49,6 @@ main {
   bottom: 10%;
   width: 250px;
   background-color: #e9ecef; /* Light background for chat box */
-  border: 1px solid #4CAF50; /* Forest Green border for chat box */
   border-radius: 10px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -58,7 +57,7 @@ main {
 }
 
 .chat-container header {
-  background-color: #2E2E2E; /* Charcoal background */
+  background-color: #4CAF50; /* Charcoal background */
   color: #f8f9fa; /* White text */
   padding: 1rem;
   font-weight: bold;
@@ -102,7 +101,7 @@ main {
   border-top: 1px solid #e9ecef;
   display: flex;
   align-items: center;
-  background-color: #2E2E2E; /* Charcoal background for input area */
+  background-color: #4CAF50; /* Charcoal background for input area */
 }
 
 .chat-input input {
