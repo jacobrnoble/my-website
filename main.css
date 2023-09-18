@@ -28,6 +28,7 @@ main {
 
 /* Projects Section */
 .project-icon {
+  background-color: #F2F2F2;
   display: inline-block;
   border: 2px solid #F2D785; /* Forest Green border */
   border-radius: 10px;
