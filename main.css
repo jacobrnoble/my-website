@@ -103,7 +103,7 @@ main {
   display: flex;
   align-items: center;
   background-color: #2E2E2E; /* Charcoal background for input area */
-  margin: 0; /* Removing any default margins */
+  margin: 1; /* Removing any default margins */
 }
 
 .chat-input input {
